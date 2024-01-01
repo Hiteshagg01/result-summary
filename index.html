@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+
+        <!-- Google Fonts Import -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Custom CSS file import -->
+        <link rel="stylesheet" href="style.css" />
+
+        <title>Frontend Mentor | Results summary component</title>
+    </head>
+    <body>
+        <article class="report">
+            <div class="report__result">
+                <h2>Your Result</h2>
+                <div class="result__score">
+                    <h3>76</h3>
+                    <p>of 100</p>
+                </div>
+                <h4>Great</h4>
+                <p>
+                    You scored higher than 65% of the people who have taken
+                    these tests.
+                </p>
+            </div>
+
+            <div class="report__summary">
+                <h2>Summary</h2>
+                <div class="summary__card">
+                    <div class="red">
+                        <img src="./assets/images/icon-reaction.svg" alt="" />
+                        <h3>Reaction</h3>
+                        <p>80 <span>/ 100</span></p>
+                    </div>
+                    <div class="orange">
+                        <img src="./assets/images/icon-memory.svg" alt="" />
+                        <h3>Memory</h3>
+                        <p>92 <span>/ 100</span></p>
+                    </div>
+                    <div class="green">
+                        <img src="./assets/images/icon-verbal.svg" alt="" />
+                        <h3>Verbal</h3>
+                        <p>61 <span>/ 100</span></p>
+                    </div>
+                    <div class="cobalt">
+                        <img src="./assets/images/icon-visual.svg" alt="" />
+                        <h3>Visual</h3>
+                        <p>72 <span>/ 100</span></p>
+                    </div>
+                </div>
+                <div class="summary__btn"><button>Continue</button></div>
+            </div>
+        </article>
+    </body>
+</html>
