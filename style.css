@@ -205,3 +205,61 @@ img {
         var(--gr-linear-light-royal-blue)
     );
 }
+
+@media (max-width: 375px) {
+    .report {
+        height: 100%;
+        width: 375px;
+        grid-template-columns: 1fr;
+        --br: 0rem;
+        border-radius: 10rem;
+    }
+    .report__result {
+        border-radius: 0 0 2rem 2rem;
+    }
+    .report__result > h2 {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+    .result__score {
+        margin-top: 1.4rem;
+        height: 150px;
+        width: 150px;
+        line-height: 2;
+    }
+    .result__score > h3 {
+        font-size: 3rem;
+    }
+    .result__score > p {
+        font-size: 0.8rem;
+    }
+    .report__result > h4 {
+        font-size: 1.25rem;
+        margin-top: 1rem;
+    }
+    .report__result > p {
+        max-width: 80%;
+        font-size: 0.9rem;
+        margin-block: 0.5rem 2rem;
+    }
+    .report__summary > h2 {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+    .summary__card {
+        margin-top: 1rem;
+    }
+    .summary__card > div {
+        font-size: 0.9rem;
+    }
+    .summary__card > div > h3 {
+        font-size: 0.9rem;
+    }
+    .summary__btn {
+        margin-block: 1.25rem;
+    }
+
+    .summary__btn button {
+        font-size: 0.9rem;
+    }
+}
