@@ -209,10 +209,11 @@ img {
 @media (max-width: 375px) {
     .report {
         height: 100%;
-        width: 375px;
+        max-width: 375px;
         grid-template-columns: 1fr;
         --br: 0rem;
         border-radius: 10rem;
+        box-shadow: none;
     }
     .report__result {
         border-radius: 0 0 2rem 2rem;
